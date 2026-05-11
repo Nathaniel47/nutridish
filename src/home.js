@@ -3,6 +3,8 @@ import jollofImage from "./Jollof-rmbg.png"
 export function loadHome(){
 const content = document.getElementById("content");
 
+content.innerHTML = "";
+
 const image = document.createElement("img");
 image.src = jollofImage;
 image.alt = "Delicious Jollof Rice";
